@@ -1,0 +1,82 @@
+/* GENERALES
+-------------------------------------------------------------------------------*/
+.wrapper {
+	width: 100%;
+	max-width: 1280px;
+	height: 720px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+/* BACKGROUND
+-------------------------------------------------------------------------------*/
+#space, #rocks, #interior {
+	width: 100%;
+	max-width: 1280px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#character {
+	width: 25%;
+	position: absolute;
+	height: auto;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+/* FRONT
+-------------------------------------------------------------------------------*/
+
+
+
+
+/* SHIP
+-------------------------------------------------------------------------------*/
+#divider-top {
+	height: 80px;
+}
+#container-ship {
+	width: 70%;
+	height: 480px;
+	position: relative;
+	margin: 0 auto;
+	background-color: transparent;
+}
+	#ship {
+		width: 70px;
+		height: 75px;
+		border-radius: 50%;
+		background-image: url(../img/ship.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#buttons {
+		width: 25%;
+		position: relative;
+		display: flex;
+		margin: -70px auto;
+	}
+
+	.control-btn {
+		width: 80px;
+		height: auto;
+		cursor: pointer;
+	}
+
+
+
+/* MEDIA QUERIES
+-------------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+
+
